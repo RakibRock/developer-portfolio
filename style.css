@@ -8,14 +8,14 @@ body {
 }
 
 .W {
-  font-size: 40px;
-}
-
-.name {
   font-size: 50px;
 }
 
-section {
+.name {
+  font-size: 40px;
+}
+
+.flexible-container {
   display: flex;
 }
 .sec-1 {
@@ -36,9 +36,65 @@ section {
   width: 100%;
 }
 
+#sec2-side-image {
+  width: 10%;
+}
+
 .g-button {
   text-decoration: none;
   background-image: linear-gradient(tomato, orange);
   padding: 10px 40px;
   border-radius: 5px;
+}
+
+.sec-3 {
+  margin-top: 150px;
+  background-image: url(/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-y: 70%;
+  padding-bottom: 100px;
+}
+
+.border {
+  border-left: 7px solid;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 50%;
+  box-shadow: 10px 10px 50px black;
+  padding-bottom: 5%;
+  text-align: justify;
+}
+
+#border1 {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+#border2 {
+  border-left: 7px solid;
+  border-image: linear-gradient(red, yellow);
+  border-image-slice: 1;
+}
+
+.exp {
+  font-size: 50px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+footer {
+  padding: 2%;
+  background-color: black;
+  text-align: center;
+  color: white;
 }
